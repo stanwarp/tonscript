@@ -50,6 +50,6 @@ try {
   const sent = await transfer.send();
   
   console.log('sent, ', sent);
-    } catch (err) {
-      console.log('eerr, ', err);
-    }
+  } catch (err) {
+    console.log('eerr, ', err);
+}
